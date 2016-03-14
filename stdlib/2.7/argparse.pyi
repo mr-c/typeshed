@@ -125,7 +125,7 @@ class _ActionsContainer:
     def get_default(self, dest): ...
     def add_argument(self,
         *args: str,
-        action: str = ...,
+        action: Union[str,Action] = ...,
         nargs: str = ...,
         const: Any = ...,
         default: Any = ...,
